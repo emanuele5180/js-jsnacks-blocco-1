@@ -6,6 +6,6 @@ if (primoNumero > secondoNumero){
   document.getElementById('numeromaggiore') .innerHTML = "il numero più grande è" + primoNumero;
 }else if (primoNumero < secondoNumero) {
   document.getElementById('numeromaggiore') .innerHTML = "il numero più grande è" + secondoNumero;
-}else { (primoNumero = secondoNumero);
+}else { //(primoNumero = secondoNumero);
   document.getElementById('numeromaggiore') .innerHTML = "i numeri sono uguali";
 };
