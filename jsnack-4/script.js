@@ -1,5 +1,28 @@
 document.getElementById("produce").addEventListener("click", function (){
   var numeroCasuale = Math.floor(Math.random()*10) + 1;
+  console.log(numeroCasuale);
+  var paridispari = document.getElementById("numero")
 
-  if (numeroCasuale )
-})
+  if (!(numeroCasuale%2)) {
+    elem.clasList.remove("pari")
+
+  } els{
+    elem.classList.remove("dispari")
+  }
+
+
+
+
+  // if (numeroCasuale ){
+  //
+  // }
+});
+
+
+// function isEven(numeroCasuale) {
+//    return numeroCasuale % 2 == 0;
+// }
+//
+// function isOdd(numeroCasuale) {
+//    return Math.abs(numeroCasuale % 2) == 1;
+// }
