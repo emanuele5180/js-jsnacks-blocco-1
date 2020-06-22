@@ -1,0 +1,11 @@
+#testa {
+  display: none;
+}
+
+#croce {
+  display: none;
+}
+
+.show {
+  display: block;
+}

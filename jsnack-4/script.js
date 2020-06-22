@@ -4,10 +4,10 @@ document.getElementById("produce").addEventListener("click", function (){
   var paridispari = document.getElementById("numero")
 
   if (!(numeroCasuale%2)) {
-    elem.clasList.remove("pari")
+    paridispari.clasList.remove("pari")
 
-  } els{
-    elem.classList.remove("dispari")
+  } else{
+    paridispari.classList.remove("dispari")
   }
 
 
