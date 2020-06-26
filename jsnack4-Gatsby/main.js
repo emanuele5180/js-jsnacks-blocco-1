@@ -5,19 +5,23 @@
 var invitati = [ "paperino", "topolino", "pluto", "pippo"];
 var lista = false;
 
-
+var nome = prompt("come ti chiami");
 
 for (var i = 0; i < invitati.length; i++) {
 
+  if (nome == invitati[i]) {
 
-  var nome = prompt("come ti chiami");
-  if (nome == invitati) {
     lista = true;
-    console.log("entra e muoviti!");
 
   } else {
-    lista = false;
-    console.log("smamma!");
+    lista=false;
+
   }
 
+
+
+
+
 }
+console.log("entra e muoviti!");
+console.log("smamma!");
