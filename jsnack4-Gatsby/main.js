@@ -11,17 +11,14 @@ for (var i = 0; i < invitati.length; i++) {
 
   if (nome == invitati[i]) {
 
-    lista = false;
+    lista = true;
 
-
-  } else {
 
   }
 
-
 }
 
-if (false) {
+if (lista == true) {
 
 
   console.log("entra e muoviti!");
